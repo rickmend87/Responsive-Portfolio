@@ -245,15 +245,14 @@ input[type=submit] {
     {
         max-width: 750px;
     }
+
     .main-section
     {
         max-width: 428px;
     }
-    .sidebar
-    {
 
-    }
-    .auth-image
+    .auth-image,
+    .work
     {
         width: 100%;
     }
@@ -265,21 +264,49 @@ input[type=submit] {
     {
         max-width: 750px;
     }
-    .main-section
-    {
-        float: none;
-        max-width: 100%;
-    }
+
+    .main-section,
     .sidebar
     {
         float: none;
         max-width: 100%;
     }
+
+    #portfolio-page
+    {
+        height: 1025px;
+    }
+
     .auth-image
     {
         width: 340px;
     }
+
+    .work
+    {
+        width: 47%;
+    }
 }
+
+@media screen and (min-width: 641px) and (max-width: 760px)
+{
+    .work
+    {
+        width: 100%;
+    }
+    #portfolio-page
+    {
+        height: 2600px;
+    }
+    .main-section,
+    .sidebar
+    {
+        margin: 0 auto 30px;
+        width: 650px;
+    }
+
+}
+
 
 @media screen and (max-width: 640px)
 {
@@ -288,7 +315,8 @@ input[type=submit] {
         position: static;
     }
 
-    #logo{
+    #logo
+    {
         width: 100%;
     }
 
@@ -299,6 +327,7 @@ input[type=submit] {
         text-align: center;
         padding: 10px;
     }
+
     nav a
     {
         vertical-align: middle;
@@ -322,7 +351,13 @@ input[type=submit] {
         padding-top: 0px;
     }
 
-    .auth-image
+    #portfolio-page
+    {
+        height: 2424px;
+    }
+
+    .auth-image,
+    .work
     {
         width: 100%;
     }
